@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universities in Sierra Leone</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Header Styles */
+        header {
+            background: #1e4620;
+            color: white;
+            padding: 10px 20px;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-container h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color: white;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #28a745;
+        }
+
+        /* Landing Page Styles */
+        .landing-page {
+            height: 80vh;
+            background: url('Universities.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .landing-page h1 {
+            font-size: 3rem;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #333;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1 1 300px;
+        }
+        .card h3 {
+            margin-bottom: 15px;
+        }
+        .card p {
+            margin-bottom: 20px;
+        }
+        .card button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .card button:hover {
+            background: #218838;
+        }
+        .more-btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .more-btn-container button {
+            background: #1e4620;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .more-btn-container button:hover {
+            background: #145a0f;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #1e4620;
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 200px;
+            margin-bottom: 15px;
+        }
+        .footer-section h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        .footer-section ul li a {
+            color: white;
+        }
+        .footer-section ul li a:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1><a href="Home.html" style="color: white; text-decoration: none;">Educonnect Hub</a></h1>
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Universities.html">Universities</a>
+                <a href="Ebooks.html">Ebooks</a>
+                <a href="Scholership.html">Scholarships</a>
+                <a href="About us.html">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <h1>Explore Universities in Sierra Leone</h1>
+    </div>
+
+    <!-- Private Universities Section -->
+    <section id="private-universities">
+        <h2 class="section-title">Private Universities</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>University of Management and Technology (UNIMTECH)</h3>
+                <p>Leading private university in Sierra Leone.</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <h3>Limkokwing University of Creative Technology</h3>
+                <p>Known for innovation and creativity in education.</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <h3>BlueCrest College</h3>
+                <p>Specializing in technology and business education.</p>
+                <button>View</button>
+            </div>
+        </div>
+        <div class="more-btn-container">
+            <button>More</button>
+        </div>
+    </section>
+
+    <!-- Government Universities Section -->
+    <section id="government-universities">
+        <h2 class="section-title">Government Universities</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Fourah Bay College (FBC)</h3>
+                <p>Oldest university in West Africa, part of USL.</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <h3>Njala University</h3>
+                <p>Specializes in agriculture and applied sciences.</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <h3>Ernest Bai Koroma University of Science and Technology</h3>
+                <p>Focused on science and technical education.</p>
+                <button>View</button>
+            </div>
+        </div>
+        <div class="more-btn-container">
+            <button>More</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>1234 University St, Freetown, Sierra Leone</p>
+            <p>Email: <a href="mailto:info@educonnecthub.com">info@educonnecthub.com</a></p>
+            <p>Phone: +232 (123) 456-7890</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#private-universities">Private Universities</a></li>
+                <li><a href="#government-universities">Government Universities</a></li>
+                <li><a href="About us.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

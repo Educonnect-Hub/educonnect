@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educonnect Hub - Home</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        /* Header Styles */
+        header {
+            background: #1e4620;
+            color: white;
+            padding: 10px 0;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .header-container h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #28a745;
+        }
+
+        /* Landing Page Styles */
+        .landing-page {
+            height: 100vh;
+            background: url('Students.jpg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .landing-page h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .landing-page p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #28a745;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #333;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1 1 300px;
+        }
+        .card h3 {
+            margin-bottom: 15px;
+        }
+        .card button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .card button:hover {
+            background-color: #218838;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #218838;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #1e4620;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer .footer-links a {
+            color: #ddd;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer .footer-links a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1><a href="Home.html" style="color: white; text-decoration: none;">Educonnect Hub</a></h1>
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Universities.html">Universities</a>
+                <a href="Ebooks.html">Ebooks</a>
+                <a href="Scholership.html">Scholarships</a>
+                <a href="About us.html">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <h1>Welcome to Educonnect Hub Sierra Leone</h1>
+        <p>Your gateway to educational opportunities in Sierra Leone.</p>
+        <a href="#what-we-do" class="btn">Explore What We Do</a>
+    </div>
+
+    <!-- What We Do Section -->
+    <section id="what-we-do">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>University Enquiries</h3>
+                    <p>We assist with information about universities worldwide.</p>
+                    <button>View</button>
+                </div>
+                <div class="card">
+                    <h3>Scholarship Opportunities</h3>
+                    <p>Find the best scholarships for your academic journey.</p>
+                    <button>View</button>
+                </div>
+                <div class="card">
+                    <h3>Ebooks</h3>
+                    <p>Access a wide range of educational ebooks to enhance your learning.</p>
+                    <button>View</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" style="background: #f9f9f9;">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Access to Learning Materials</h3>
+                    <p>Get the best resources to help you excel.</p>
+                    <button>View</button>
+                </div>
+                <div class="card">
+                    <h3>Online Consultation</h3>
+                    <p>Speak with experts about your education journey.</p>
+                    <button>View</button>
+                </div>
+                <div class="card">
+                    <h3>Tutorials</h3>
+                    <p>Learn with guided tutorials from our experts.</p>
+                    <button>View</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="phone" placeholder="Your Phone Number">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Educonnect Hub. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="Home.html">Home</a>
+                <a href="Ebooks.html">Ebooks</a>
+                <a href="Scholership.html">Scholarships</a>
+                <a href="About us.html">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
